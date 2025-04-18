@@ -1,0 +1,191 @@
+/* Global */
+@font-face {
+    font-family: "Neue Haas Display";
+    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Haas Display";
+    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Neue Haas Display";
+    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayBlack.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Haas Display";
+    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayMediu.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #C60800;
+}
+header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1260px;
+    background: #C60800;
+}
+@media screen and (min-width: 768px) {
+    header .header {
+        height: 46px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    header .header {
+        height: 32px;
+        padding: 10px 13px;
+    }
+}
+header .header .buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header .header .buttons img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+@media screen and (min-width: 1024px) {
+    header .header .buttons img {
+        visibility: visible;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header .header .buttons img {
+        visibility: hidden;
+    }
+}
+@media screen and (min-width: 468px) {
+    header .header .buttons img {
+        margin: 0 10px 0 20px;
+    }
+}
+@media screen and (max-width: 468px) {
+    header .header .buttons img {
+        margin: 0;
+    }
+}
+header .header .buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #C60800;
+    cursor: pointer;
+    border: white solid 1px;
+    border-radius: 2px;
+    padding: 7px;
+}
+header .header .buttons button:hover {
+    background-color: white;
+}
+header .header .buttons button:hover .menu-text {
+    color: black;
+}
+header .header .buttons button:hover .menu-icon span {
+    background-color: black;
+}
+header .header .buttons button .menu-text {
+    color: #fff;
+    font-family: "Neue Haas Display", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    margin-left: 7px;
+}
+@media screen and (min-width: 768px) {
+    header .header .buttons button .menu-text {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    header .header .buttons button .menu-text {
+        display: none;
+    }
+}
+header .header .buttons button .menu-icon {
+    padding: 0;
+    height: 14px;
+    width: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header .header .buttons button .menu-icon span {
+    background-color: white;
+    height: 2px;
+    width: 16px;
+}
+header .header .logo {
+    justify-content: center;
+    position: relative;
+}
+header .header .logo svg {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 768px) {
+    header .header .logo svg {
+        height: 55px;
+        width: 370px;
+    }
+}
+@media screen and (max-width: 768px) {
+    header .header .logo svg {
+        height: 32px;
+        width: 215px;
+    }
+}
+@media screen and (min-width: 468px) {
+    header .header .logo svg {
+        left: 0;
+    }
+}
+@media screen and (max-width: 468px) {
+    header .header .logo svg {
+        left: 20px;
+    }
+}
+header .header .pagesix-logo {
+    margin-right: 20px;
+    padding-right: 5px;
+}
+@media screen and (min-width: 1024px) {
+    header .header .pagesix-logo {
+        visibility: visible;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header .header .pagesix-logo {
+        visibility: hidden;
+    }
+}
+@media screen and (min-width: 468px) {
+    header .header .pagesix-logo {
+        margin: 0 10px 0 20px;
+    }
+}
+@media screen and (max-width: 468px) {
+    header .header .pagesix-logo {
+        margin: 0;
+    }
+}

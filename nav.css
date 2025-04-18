@@ -1,0 +1,34 @@
+/* Nav */
+.site-nav {
+    background-color: #000;
+    font-family: "Neue Haas Display", sans-serif;
+  }
+  .site-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .site-nav li {
+    margin: 0;
+  }
+  .site-nav li + li::before {
+    content: "|";
+    color: #fff;
+    margin: 0 12px;
+  }
+  .site-nav a {
+    display: inline-block;
+    padding: 12px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+  }
+  .site-nav a:hover {
+    text-decoration: underline;
+  }
