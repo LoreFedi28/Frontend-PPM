@@ -391,3 +391,11 @@
     line-height: 14px;
     letter-spacing: 1.04px;
 }
+
+.placeholder {
+    background: #eee;
+    display: block;
+    text-align: center;
+    color: #666;
+    font-family: sans-serif;
+}
