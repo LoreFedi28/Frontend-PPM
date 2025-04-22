@@ -25,16 +25,6 @@ footer section .logo {
         justify-content: center;
     }
 }
-footer section .logo svg {
-    max-width: 234px;
-    height: 34px;
-}
-@media (max-width: 1024px) {
-    footer section .logo svg {
-        padding-left: 10px;
-        margin-bottom: 10px;
-    }
-}
 footer section .logo img {
     padding-left: 10px;
 }
@@ -64,7 +54,7 @@ footer section .links ul li a {
     display: inline-block;
     font-family: arial, sans-serif;
     font-size: 12px;
-    line-height: 15.6px;
+    line-height: 16px;
     letter-spacing: -0.12px;
     text-align: left;
     text-transform: uppercase;
@@ -82,7 +72,7 @@ footer section .links ul li ul li a {
     display: inline;
     font-family: arial, sans-serif;
     font-size: 12px;
-    line-height: 15.6px;
+    line-height: 16px;
     letter-spacing: -0.12px;
     text-align: left;
     text-transform: uppercase;
@@ -140,8 +130,4 @@ footer .legal hr {
 footer .legal .privacy {
     border-left: none;
     font-weight: 700;
-}
-footer a.logo {
-    display: block;
-    text-align: center;
 }

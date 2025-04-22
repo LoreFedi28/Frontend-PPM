@@ -1,35 +1,3 @@
-/* Global */
-@font-face {
-    font-family: "Neue Haas Display";
-    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayBold.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Neue Haas Display";
-    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayBoldItalic.ttf") format("truetype");
-    font-weight: 600;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Neue Haas Display";
-    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayBlack.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Neue Haas Display";
-    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayMediu.ttf") format("truetype");
-    font-weight: 900;
-    font-style: normal;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-/* Header */
 header {
     background: #C60800;
 }
@@ -40,6 +8,8 @@ header .header {
     margin: 0 auto;
     max-width: 1260px;
     background: #C60800;
+    height: 60px;
+    position: relative;
 }
 @media screen and (min-width: 768px) {
     header .header {
@@ -62,25 +32,18 @@ header .header .buttons img {
     width: 25px;
     height: 25px;
     cursor: pointer;
+    margin-left: 10px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 768px) {
     header .header .buttons img {
-        visibility: visible;
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 480px) {
     header .header .buttons img {
-        visibility: hidden;
-    }
-}
-@media screen and (min-width: 468px) {
-    header .header .buttons img {
-        margin: 0 10px 0 20px;
-    }
-}
-@media screen and (max-width: 468px) {
-    header .header .buttons img {
-        margin: 0;
+        display: none;
     }
 }
 header .header .buttons button {
@@ -134,34 +97,37 @@ header .header .buttons button .menu-icon span {
     width: 16px;
 }
 header .header .logo {
-    justify-content: center;
-    position: relative;
-}
-header .header .logo svg {
-    z-index: 1;
     position: absolute;
-    top: 0;
-    transform: translate(-50%, -50%);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+header .header .logo .placeholder {
+    height: 55px;
+    width: 370px;
 }
 @media screen and (min-width: 768px) {
-    header .header .logo svg {
-        height: 55px;
-        width: 370px;
+    header .header .logo .placeholder {
+        height: 32px;
+        width: 215px;
     }
 }
 @media screen and (max-width: 768px) {
-    header .header .logo svg {
+    header .header .logo .placeholder {
         height: 32px;
         width: 215px;
     }
 }
 @media screen and (min-width: 468px) {
-    header .header .logo svg {
+    header .header .logo .placeholder {
         left: 0;
     }
 }
 @media screen and (max-width: 468px) {
-    header .header .logo svg {
+    header .header .logo .placeholder {
         left: 20px;
     }
 }

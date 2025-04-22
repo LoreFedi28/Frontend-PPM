@@ -1,29 +1,3 @@
-/* Global */
-@font-face {
-    font-family: "Neue Haas Display";
-    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayBold.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Neue Haas Display";
-    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayBoldItalic.ttf") format("truetype");
-    font-weight: 600;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Neue Haas Display";
-    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayBlack.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Neue Haas Display";
-    src: url("assets/fonts/neue-grotesk/NeueHaasDisplayMediu.ttf") format("truetype");
-    font-weight: 900;
-    font-style: normal;
-}
-
 .body {
     width: 69rem;
     margin: 0 auto;
@@ -103,13 +77,6 @@
         letter-spacing: -0.72px;
     }
 }
-.main-content main article a img {
-    margin-bottom: 15px;
-    display: block;
-    width: 100vw;
-    position: relative;
-    max-width: 100%;
-}
 .main-content main article h2 {
     width: 100%;
     margin: 0 0 16px;
@@ -121,7 +88,7 @@
     }
 }
 .main-content main article h2 a {
-    line-height: 37.8px;
+    line-height: 38px;
     letter-spacing: -0.36px;
     font-size: 36px;
     font-family: "Neue Haas Display", sans-serif;
@@ -218,7 +185,7 @@
     font-family: "Neue Haas Display", sans-serif;
     font-size: 30px;
     line-height: 28px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     padding: 10px 15px;
     white-space: nowrap;
 }
@@ -313,7 +280,7 @@
 @media (max-width: 768px) {
     .main-content main .header-line-through .left {
         margin-bottom: 18px;
-        padding: 0 calc(50vw - 67.5px - 45px) 0 calc(50vw - 67.5px - 35px);
+        padding: 0 calc(50vw - 68px - 45px) 0 calc(50vw - 68px - 35px);
     }
 }
 .main-content main .header-line-through .left h3 {
@@ -340,7 +307,7 @@
     font-family: "Neue Haas Display", sans-serif;
     font-size: 30px;
     line-height: 28px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     padding: 10px 15px;
     white-space: nowrap;
 }
@@ -389,7 +356,7 @@
     font-family: "Neue Haas Display", sans-serif;
     font-size: 13px;
     line-height: 14px;
-    letter-spacing: 1.04px;
+    letter-spacing: 1px;
 }
 
 .placeholder {

@@ -93,7 +93,7 @@
         margin-right: 15px;
     }
 }
-.main-content main .articles-in-thirds article a.image-anchor img {
+.main-content main .articles-in-thirds article a.image-anchor .placeholder {
     width: 100vw;
     margin-bottom: 10px;
     display: block;
@@ -101,7 +101,7 @@
     max-width: 100%;
 }
 @media (max-width: 768px) {
-    .main-content main .articles-in-thirds article a.image-anchor img {
+    .main-content main .articles-in-thirds article a.image-anchor .placeholder {
         min-width: 144px;
         min-height: 96px;
     }
@@ -207,7 +207,7 @@
     text-align: left;
 }
 .main-content main .main-article-with-sidebar article.main-article h2 a {
-    line-height: 37.8px;
+    line-height: 38px;
     letter-spacing: -0.01em;
     font-size: 36px;
     font-family: "Neue Haas Display", sans-serif;
@@ -239,7 +239,7 @@
         font-weight: 600;
     }
 }
-.main-content main .main-article-with-sidebar article.main-article a img {
+.main-content main .main-article-with-sidebar article.main-article a .placeholder {
     margin-bottom: 15px;
     display: block;
     width: 100vw;
@@ -309,13 +309,13 @@
     }
 }
 @media (max-width: 768px) {
-    .main-content main .main-article-with-sidebar div.sidebar article a img {
+    .main-content main .main-article-with-sidebar div.sidebar article a .placeholder {
         width: 180px;
         height: 120px;
     }
 }
 @media (max-width: 600px) {
-    .main-content main .main-article-with-sidebar div.sidebar article a img {
+    .main-content main .main-article-with-sidebar div.sidebar article a .placeholder {
         width: 144px;
         height: 96px;
     }
@@ -401,7 +401,7 @@
     text-align: center;
     transform: skew(-10deg);
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font-size: 30px;
     line-height: 28px;
     font-family: "Neue Haas Display", sans-serif;
@@ -426,7 +426,7 @@
     padding-top: 15px;
     border-top: solid 1px rgb(204, 204, 204);
 }
-.main-content main .main-article-with-sidebar div.sidebar .topic ul li a img {
+.main-content main .main-article-with-sidebar div.sidebar .topic ul li a .placeholder {
     margin-bottom: 16px;
     display: block;
     width: 100vw;
@@ -483,7 +483,7 @@
     font-family: "Neue Haas Display", sans-serif;
     font-size: 18px;
     line-height: 0.85;
-    letter-spacing: 1.08px;
+    letter-spacing: 1px;
 }
 .main-content main .categories .category ul {
     list-style: none;
@@ -494,7 +494,7 @@
     padding-top: 15px;
     border-top: solid 1px rgb(204, 204, 204);
 }
-.main-content main .categories .category ul li a img {
+.main-content main .categories .category ul li a .placeholder {
     margin-bottom: 16px;
     display: block;
     width: 100vw;
@@ -551,7 +551,7 @@
     font-family: "Neue Haas Display", sans-serif;
     font-size: 18px;
     line-height: 0.85;
-    letter-spacing: 1.08px;
+    letter-spacing: 1px;
 }
 .main-content main .videos-category .category-name a span {
     color: black;
@@ -559,8 +559,8 @@
     font-weight: 600;
     font-family: "Neue Haas Display", sans-serif;
     font-size: 13px;
-    line-height: 14.3px;
-    letter-spacing: 1.04px;
+    line-height: 14px;
+    letter-spacing: 1px;
 }
 .main-content main .videos-category .videos {
     display: grid;
@@ -593,7 +593,7 @@
     width: 100%;
     text-align: left;
 }
-.main-content main .videos-category .videos .main-video a img {
+.main-content main .videos-category .videos .main-video a .placeholder {
     margin-bottom: 15px;
     display: block;
     width: 100vw;
@@ -650,7 +650,7 @@
         font-weight: 600;
     }
 }
-.main-content main .videos-category div.other-videos .video a img {
+.main-content main .videos-category div.other-videos .video a .placeholder {
     margin-right: 15px;
     width: 9rem;
     height: auto;
