@@ -93,19 +93,6 @@
         margin-right: 15px;
     }
 }
-.main-content main .articles-in-thirds article a.image-anchor .placeholder {
-    width: 100vw;
-    margin-bottom: 10px;
-    display: block;
-    position: relative;
-    max-width: 100%;
-}
-@media (max-width: 768px) {
-    .main-content main .articles-in-thirds article a.image-anchor .placeholder {
-        min-width: 144px;
-        min-height: 96px;
-    }
-}
 .main-content main .articles-in-thirds article h3 {
     margin-bottom: 0;
 }
@@ -239,13 +226,6 @@
         font-weight: 600;
     }
 }
-.main-content main .main-article-with-sidebar article.main-article a .placeholder {
-    margin-bottom: 15px;
-    display: block;
-    width: 100vw;
-    position: relative;
-    max-width: 100%;
-}
 .main-content main .main-article-with-sidebar article.main-article p a {
     line-height: 20px;
     letter-spacing: -0.16px;
@@ -306,18 +286,6 @@
         height: 96px;
         position: absolute;
         justify-content: flex-start;
-    }
-}
-@media (max-width: 768px) {
-    .main-content main .main-article-with-sidebar div.sidebar article a .placeholder {
-        width: 180px;
-        height: 120px;
-    }
-}
-@media (max-width: 600px) {
-    .main-content main .main-article-with-sidebar div.sidebar article a .placeholder {
-        width: 144px;
-        height: 96px;
     }
 }
 .main-content main .main-article-with-sidebar div.sidebar article h2 {
@@ -426,14 +394,6 @@
     padding-top: 15px;
     border-top: solid 1px rgb(204, 204, 204);
 }
-.main-content main .main-article-with-sidebar div.sidebar .topic ul li a .placeholder {
-    margin-bottom: 16px;
-    display: block;
-    width: 100vw;
-    position: relative;
-    overflow-clip-margin: content-box;
-    max-width: 100%;
-}
 .main-content main .main-article-with-sidebar div.sidebar .topic ul li h3 {
     text-align: left;
     letter-spacing: -0.03em;
@@ -493,14 +453,6 @@
     margin-top: 15px;
     padding-top: 15px;
     border-top: solid 1px rgb(204, 204, 204);
-}
-.main-content main .categories .category ul li a .placeholder {
-    margin-bottom: 16px;
-    display: block;
-    width: 100vw;
-    position: relative;
-    overflow-clip-margin: content-box;
-    max-width: 100%;
 }
 .main-content main .categories .category ul li h3 {
     text-align: left;
@@ -593,13 +545,6 @@
     width: 100%;
     text-align: left;
 }
-.main-content main .videos-category .videos .main-video a .placeholder {
-    margin-bottom: 15px;
-    display: block;
-    width: 100vw;
-    position: relative;
-    max-width: 100%;
-}
 .main-content main .videos-category .videos .main-video span {
     position: relative;
     left: 10px;
@@ -649,11 +594,6 @@
         font-size: 18px;
         font-weight: 600;
     }
-}
-.main-content main .videos-category div.other-videos .video a .placeholder {
-    margin-right: 15px;
-    width: 9rem;
-    height: auto;
 }
 .main-content main .videos-category div.other-videos .video a span {
     position: absolute;
