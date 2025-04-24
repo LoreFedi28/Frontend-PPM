@@ -41,5 +41,5 @@ Le immagini del progetto sono state sostituite da:
 
 ---
 
-👨‍💻 **Autore**: Lorenzo Fedi  
-📅 **Ultimo aggiornamento**: Aprile 2025
+**Autore**: Lorenzo Fedi  
+**Ultimo aggiornamento**: Aprile 2025
