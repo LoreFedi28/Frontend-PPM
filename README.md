@@ -41,5 +41,7 @@ Le immagini del progetto sono state sostituite da:
 
 ---
 
-**Autore**: [Lorenzo Fedi](https://github.com/LoreFedi28)  
+## Autore
+[Lorenzo Fedi](https://github.com/LoreFedi28)
+
 **Ultimo aggiornamento**: Aprile 2025
