@@ -1,8 +1,30 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Node modules
+node_modules/
+
+# JetBrains IDE
+.idea/
+
+# VS Code
+.vscode/
+
+# Sistemi operativi
+.DS_Store
+Thumbs.db
+
+# File temporanei
+*.log
+*.tmp
+*.swp
+
+# Output temporanei da build (se usi strumenti di build)
+dist/
+build/
+
+# Backup temporanei
+*.bak
+*.old
+*.orig
+
+# Altri file di sistema
+*.sublime-project
+*.sublime-workspace
